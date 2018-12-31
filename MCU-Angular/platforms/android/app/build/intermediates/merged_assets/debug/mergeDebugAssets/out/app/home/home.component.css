@@ -1,0 +1,95 @@
+#page {
+    background: linear-gradient(to bottom, #eb2328, #252323, #000);
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+}
+
+.logo {
+    margin: 20px 0;
+}
+
+.tab {
+    text-align: center;
+    font-weight: 700;
+    font-size: 19px;
+    background: #000;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.tab-is-active {
+    background: #fff;
+    color: #000;
+}
+
+
+/* MOVIES TIMELINE */
+.movies-timeline-item {
+    opacity: 1;
+}
+
+.movies-timeline-item-is-watched {
+    opacity: 0.5;
+}
+
+.movies-timeline-movie {
+    padding: 40px;
+    color: #fff
+}
+
+.movies-timeline-movie-is-watched {
+    padding: 40px;
+    color: #444444;
+}
+
+.movies-timeline-total {
+    padding: 40px;
+    color: #444444;
+}
+
+.movies-timeline-title {
+    font-size: 24px;
+    padding: 0 0 15px;
+    margin: 0 0 15px;
+    font-weight: bold;
+    border-bottom-color:#EB2328;
+    border-bottom-width: 2px;
+}
+
+.movies-timeline-button {
+    font-size: 16px;
+    color: #fff;
+    background-color: #EB2328;
+    border-radius: 8px;
+    height: 50px;
+    padding: 0 10px;
+    text-transform: capitalize;
+}
+
+.movies-timeline-total {
+    font-size: 16px;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+}
+
+.movies-timeline-desc {
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+
+/* MOVIES WATCH LIST */
+.watch-list-title{
+    font-size: 29px;
+    font-weight: 700;
+}
+.watch-list-subtitle{
+    font-size: 16px;
+    padding: 20px 10px;
+}
+.watch-list-movie{
+    margin: 0 10px 20px;
+}
+
+/* } */

@@ -1,0 +1,420 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+MERGED from [com.orhanobut:hawk:2.0.1] /Users/tyler/.gradle/caches/transforms-1/files-1.1/hawk-2.0.1.aar/a2bd2b22846e75e72245ba8e4c61b227/AndroidManifest.xml:2:1-8:12
+MERGED from [net.gotev:uploadservice:3.4.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/uploadservice-3.4.2.aar/fb00b0cd2a1965f315f66f56a88b6e9a/AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:design:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/70fb4bf591c2903f4ce375ea00e7af1a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d24c994d30741495a7b23d146882d99c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/86ef4c5809a4a87f6d7f91b62186b0f0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/3e1652277f34f221892ae7fd9648adef/AndroidManifest.xml:2:1-5:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/30c05892746a170de20ad4b65737bd98/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/cba5f0da768ee0ea7999e4ec60a3c83e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-gif:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/animated-gif-1.10.0.aar/dd3a4b5f968360c05624b0fbe70b1985/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/dfc1742984e6191cad264f6a7a7f4ba0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/c220d9b6a0a15d2d14f9a40c7479fdb8/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/8c405dbb940a9b1d0039d34990637699/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/6522b1ebed012f707ce5db2e9a145fea/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/d05c48ffbb51343de8ee1e0b87ef64f3/AndroidManifest.xml:17:1-22:12
+MERGED from [:nativescript-optimized-with-inspector:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/06907488e4e5433ef15261ed26617996/AndroidManifest.xml:2:1-11:12
+MERGED from [:kinvey_nativescript_sdk:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/kinvey_nativescript_sdk.aar/f4db28918e712e621492c52fe49d9511/AndroidManifest.xml:2:1-11:12
+MERGED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:2:1-25:12
+MERGED from [:nativescript_camera:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/9d031a180b0a4607f630bb9791eafabe/AndroidManifest.xml:2:1-23:12
+MERGED from [:processors-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/processors-release.aar/5f1af38c7fd35d7bf4c1e601e501ddf7/AndroidManifest.xml:2:1-12:12
+MERGED from [:nativescript_geolocation:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_geolocation.aar/ace126dc4f7e1138e80bb48fbe8bb70d/AndroidManifest.xml:2:1-11:12
+MERGED from [:nativescript_social_share:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/1194298cbf83a629c5f7a61d02c4e58c/AndroidManifest.xml:2:1-21:12
+MERGED from [:TNSAutoComplete-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSAutoComplete-release.aar/9ca4ecd07a3708ca7cc6411897aa7201/AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSCalendar-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSCalendar-release.aar/dc68e5c1b114117a0431d8d162228618/AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSChart-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSChart-release.aar/b1cfd015da53e8eff199824b75839447/AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSDataForm-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSDataForm-release.aar/4af4702849b94110cf84a9fd8663157e/AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSGauge-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSGauge-release.aar/2dab5834d8c847ed57a3af000202ea64/AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSListView-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/82c05b547371d3e91b47d179e01ada25/AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSSideDrawer-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSSideDrawer-release.aar/2d18fbe1e52a488e3fc8818e930b7b1b/AndroidManifest.xml:2:1-11:12
+MERGED from [:TNSCore-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSCore-release.aar/5398a0d6f8005dcc9c04d6a4cb444dd8/AndroidManifest.xml:2:1-11:12
+MERGED from [:widgets-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/5b8361296e536b1d6033e9b3c51f18cf/AndroidManifest.xml:2:1-14:12
+MERGED from [com.facebook.conceal:conceal:1.1.3] /Users/tyler/.gradle/caches/transforms-1/files-1.1/conceal-1.1.3.aar/3bd48ce1aef14c40f6e5a4543c845671/AndroidManifest.xml:7:1-16:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/da1c0eb7d37ba18f483e5ec88d22b3bb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b296279fca8fa5216806540e4abbe2c1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/406f59e5888bab1d025e2a41367fe0a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/73bcdf34517d2840f952f643b56ea137/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/cb2be79e89c0f74670c0c155e1275ef9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/0bfce96e7dc7d8510aefa3fdb9e6a17c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/bf897f1c7582a76f7d4a8d449f9c2a3c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a57a8c9131e3b44fd17ead151830a3dc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/95e4323a82016e6fe854bcedbdb14c7f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/12023aaf6a308349a148b70802633c04/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/16f49bd7b0896135fba8a46fbe31516d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/b52a9c257141e54d35dd1c474ad002c2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/5d968020d4633d99b3a8eec81ecfbed4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/7ce02d7e52ef6b24a039e45460209844/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/aaa76f165a95a8e3857495fbd43d61f8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/04a6f615de28440609dfe5e2427be032/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/264af6a88bf9c10bc9cf301908f5b910/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9a72fca58195c4dd1966d4a9b31be66d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/2dbab16e96e104387166855604bc3142/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/tyler/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/93bf583749b2ca40833de1f3bd9c9861/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/dd6ff6682edb58b2ba7879d7cebe5e64/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/4438a96483e259587b84e7410cf0ff5c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/d0797de1aa77e99c48d81ffda8e85f6d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/tyler/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d34ffeceffcb41067b718948851c5946/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d1d2ce91cd74474e25b49b7f057e2590/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/tyler/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/8c5d6bc19668f49efea41ebfe2bfaa24/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/tyler/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/32a3344161f81627c6b105d4f4e8cd97/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/tyler/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/34aba82f72a164566e448169bcf0a911/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:animated-base:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/animated-base-1.10.0.aar/36536b0afbd45d660a52a71b411dada8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:animated-drawable:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/animated-drawable-1.10.0.aar/09461df9701254dca392c6c46e68fef6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/d86a03952439e442c304e80dc4dcf214/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/d2c0181fe172edeab6059d8ea1f3915e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/56c0508e3633a645cdb1d56d87dfc88f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/a35ee1f58b2d01e8b04d5a42bb749889/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/soloader-0.5.0.aar/8f1a86fe6f0c94fe46199b798333aae4/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:2:1-43:12
+	package
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:3:2-36
+		INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:5:2-27
+		INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:4:2-25
+		INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml
+supports-screens
+ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:7:2-11:33
+	android:largeScreens
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:10:3-30
+	android:smallScreens
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:8:3-30
+	android:normalScreens
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:9:3-31
+	android:xlargeScreens
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:11:3-31
+uses-sdk
+ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+MERGED from [com.orhanobut:hawk:2.0.1] /Users/tyler/.gradle/caches/transforms-1/files-1.1/hawk-2.0.1.aar/a2bd2b22846e75e72245ba8e4c61b227/AndroidManifest.xml:6:5-44
+MERGED from [com.orhanobut:hawk:2.0.1] /Users/tyler/.gradle/caches/transforms-1/files-1.1/hawk-2.0.1.aar/a2bd2b22846e75e72245ba8e4c61b227/AndroidManifest.xml:6:5-44
+MERGED from [net.gotev:uploadservice:3.4.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/uploadservice-3.4.2.aar/fb00b0cd2a1965f315f66f56a88b6e9a/AndroidManifest.xml:7:5-9:41
+MERGED from [net.gotev:uploadservice:3.4.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/uploadservice-3.4.2.aar/fb00b0cd2a1965f315f66f56a88b6e9a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/70fb4bf591c2903f4ce375ea00e7af1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/70fb4bf591c2903f4ce375ea00e7af1a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d24c994d30741495a7b23d146882d99c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/d24c994d30741495a7b23d146882d99c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/86ef4c5809a4a87f6d7f91b62186b0f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/86ef4c5809a4a87f6d7f91b62186b0f0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/3e1652277f34f221892ae7fd9648adef/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/3e1652277f34f221892ae7fd9648adef/AndroidManifest.xml:3:5-43
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/30c05892746a170de20ad4b65737bd98/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/30c05892746a170de20ad4b65737bd98/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/cba5f0da768ee0ea7999e4ec60a3c83e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/cba5f0da768ee0ea7999e4ec60a3c83e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/animated-gif-1.10.0.aar/dd3a4b5f968360c05624b0fbe70b1985/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/animated-gif-1.10.0.aar/dd3a4b5f968360c05624b0fbe70b1985/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:multidex:1.0.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/dfc1742984e6191cad264f6a7a7f4ba0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/dfc1742984e6191cad264f6a7a7f4ba0/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/c220d9b6a0a15d2d14f9a40c7479fdb8/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/c220d9b6a0a15d2d14f9a40c7479fdb8/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/8c405dbb940a9b1d0039d34990637699/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/8c405dbb940a9b1d0039d34990637699/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/6522b1ebed012f707ce5db2e9a145fea/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/6522b1ebed012f707ce5db2e9a145fea/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/d05c48ffbb51343de8ee1e0b87ef64f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/d05c48ffbb51343de8ee1e0b87ef64f3/AndroidManifest.xml:20:5-44
+MERGED from [:nativescript-optimized-with-inspector:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/06907488e4e5433ef15261ed26617996/AndroidManifest.xml:7:5-9:41
+MERGED from [:nativescript-optimized-with-inspector:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript-optimized-with-inspector.aar/06907488e4e5433ef15261ed26617996/AndroidManifest.xml:7:5-9:41
+MERGED from [:kinvey_nativescript_sdk:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/kinvey_nativescript_sdk.aar/f4db28918e712e621492c52fe49d9511/AndroidManifest.xml:7:5-47
+MERGED from [:kinvey_nativescript_sdk:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/kinvey_nativescript_sdk.aar/f4db28918e712e621492c52fe49d9511/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_camera:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/9d031a180b0a4607f630bb9791eafabe/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_camera:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/9d031a180b0a4607f630bb9791eafabe/AndroidManifest.xml:7:5-47
+MERGED from [:processors-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/processors-release.aar/5f1af38c7fd35d7bf4c1e601e501ddf7/AndroidManifest.xml:8:5-10:41
+MERGED from [:processors-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/processors-release.aar/5f1af38c7fd35d7bf4c1e601e501ddf7/AndroidManifest.xml:8:5-10:41
+MERGED from [:nativescript_geolocation:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_geolocation.aar/ace126dc4f7e1138e80bb48fbe8bb70d/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_geolocation:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_geolocation.aar/ace126dc4f7e1138e80bb48fbe8bb70d/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_social_share:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/1194298cbf83a629c5f7a61d02c4e58c/AndroidManifest.xml:7:5-47
+MERGED from [:nativescript_social_share:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/1194298cbf83a629c5f7a61d02c4e58c/AndroidManifest.xml:7:5-47
+MERGED from [:TNSAutoComplete-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSAutoComplete-release.aar/9ca4ecd07a3708ca7cc6411897aa7201/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSAutoComplete-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSAutoComplete-release.aar/9ca4ecd07a3708ca7cc6411897aa7201/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCalendar-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSCalendar-release.aar/dc68e5c1b114117a0431d8d162228618/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCalendar-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSCalendar-release.aar/dc68e5c1b114117a0431d8d162228618/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSChart-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSChart-release.aar/b1cfd015da53e8eff199824b75839447/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSChart-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSChart-release.aar/b1cfd015da53e8eff199824b75839447/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSDataForm-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSDataForm-release.aar/4af4702849b94110cf84a9fd8663157e/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSDataForm-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSDataForm-release.aar/4af4702849b94110cf84a9fd8663157e/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSGauge-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSGauge-release.aar/2dab5834d8c847ed57a3af000202ea64/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSGauge-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSGauge-release.aar/2dab5834d8c847ed57a3af000202ea64/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSListView-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/82c05b547371d3e91b47d179e01ada25/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSListView-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSListView-release.aar/82c05b547371d3e91b47d179e01ada25/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSSideDrawer-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSSideDrawer-release.aar/2d18fbe1e52a488e3fc8818e930b7b1b/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSSideDrawer-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSSideDrawer-release.aar/2d18fbe1e52a488e3fc8818e930b7b1b/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCore-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSCore-release.aar/5398a0d6f8005dcc9c04d6a4cb444dd8/AndroidManifest.xml:7:5-9:41
+MERGED from [:TNSCore-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/TNSCore-release.aar/5398a0d6f8005dcc9c04d6a4cb444dd8/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/5b8361296e536b1d6033e9b3c51f18cf/AndroidManifest.xml:7:5-9:41
+MERGED from [:widgets-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/5b8361296e536b1d6033e9b3c51f18cf/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.conceal:conceal:1.1.3] /Users/tyler/.gradle/caches/transforms-1/files-1.1/conceal-1.1.3.aar/3bd48ce1aef14c40f6e5a4543c845671/AndroidManifest.xml:12:5-14:41
+MERGED from [com.facebook.conceal:conceal:1.1.3] /Users/tyler/.gradle/caches/transforms-1/files-1.1/conceal-1.1.3.aar/3bd48ce1aef14c40f6e5a4543c845671/AndroidManifest.xml:12:5-14:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/da1c0eb7d37ba18f483e5ec88d22b3bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/da1c0eb7d37ba18f483e5ec88d22b3bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b296279fca8fa5216806540e4abbe2c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b296279fca8fa5216806540e4abbe2c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/406f59e5888bab1d025e2a41367fe0a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/406f59e5888bab1d025e2a41367fe0a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/73bcdf34517d2840f952f643b56ea137/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/73bcdf34517d2840f952f643b56ea137/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/cb2be79e89c0f74670c0c155e1275ef9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/cb2be79e89c0f74670c0c155e1275ef9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/0bfce96e7dc7d8510aefa3fdb9e6a17c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/0bfce96e7dc7d8510aefa3fdb9e6a17c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/bf897f1c7582a76f7d4a8d449f9c2a3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/bf897f1c7582a76f7d4a8d449f9c2a3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a57a8c9131e3b44fd17ead151830a3dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a57a8c9131e3b44fd17ead151830a3dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/95e4323a82016e6fe854bcedbdb14c7f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/95e4323a82016e6fe854bcedbdb14c7f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/12023aaf6a308349a148b70802633c04/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/12023aaf6a308349a148b70802633c04/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/16f49bd7b0896135fba8a46fbe31516d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/16f49bd7b0896135fba8a46fbe31516d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/b52a9c257141e54d35dd1c474ad002c2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/b52a9c257141e54d35dd1c474ad002c2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/5d968020d4633d99b3a8eec81ecfbed4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/5d968020d4633d99b3a8eec81ecfbed4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/7ce02d7e52ef6b24a039e45460209844/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/7ce02d7e52ef6b24a039e45460209844/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/aaa76f165a95a8e3857495fbd43d61f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/aaa76f165a95a8e3857495fbd43d61f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/04a6f615de28440609dfe5e2427be032/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/04a6f615de28440609dfe5e2427be032/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/264af6a88bf9c10bc9cf301908f5b910/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/264af6a88bf9c10bc9cf301908f5b910/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9a72fca58195c4dd1966d4a9b31be66d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/9a72fca58195c4dd1966d4a9b31be66d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/2dbab16e96e104387166855604bc3142/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/2dbab16e96e104387166855604bc3142/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/tyler/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/93bf583749b2ca40833de1f3bd9c9861/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/tyler/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/93bf583749b2ca40833de1f3bd9c9861/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/dd6ff6682edb58b2ba7879d7cebe5e64/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/dd6ff6682edb58b2ba7879d7cebe5e64/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/4438a96483e259587b84e7410cf0ff5c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/4438a96483e259587b84e7410cf0ff5c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/d0797de1aa77e99c48d81ffda8e85f6d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/d0797de1aa77e99c48d81ffda8e85f6d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/tyler/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d34ffeceffcb41067b718948851c5946/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/tyler/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/d34ffeceffcb41067b718948851c5946/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d1d2ce91cd74474e25b49b7f057e2590/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/d1d2ce91cd74474e25b49b7f057e2590/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/tyler/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/8c5d6bc19668f49efea41ebfe2bfaa24/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/tyler/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/8c5d6bc19668f49efea41ebfe2bfaa24/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/tyler/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/32a3344161f81627c6b105d4f4e8cd97/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/tyler/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/32a3344161f81627c6b105d4f4e8cd97/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/tyler/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/34aba82f72a164566e448169bcf0a911/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/tyler/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/34aba82f72a164566e448169bcf0a911/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:animated-base:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/animated-base-1.10.0.aar/36536b0afbd45d660a52a71b411dada8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/animated-base-1.10.0.aar/36536b0afbd45d660a52a71b411dada8/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/animated-drawable-1.10.0.aar/09461df9701254dca392c6c46e68fef6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-drawable:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/animated-drawable-1.10.0.aar/09461df9701254dca392c6c46e68fef6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/d86a03952439e442c304e80dc4dcf214/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/d86a03952439e442c304e80dc4dcf214/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/d2c0181fe172edeab6059d8ea1f3915e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/d2c0181fe172edeab6059d8ea1f3915e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/56c0508e3633a645cdb1d56d87dfc88f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/56c0508e3633a645cdb1d56d87dfc88f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/a35ee1f58b2d01e8b04d5a42bb749889/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/a35ee1f58b2d01e8b04d5a42bb749889/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/soloader-0.5.0.aar/8f1a86fe6f0c94fe46199b798333aae4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/soloader-0.5.0.aar/8f1a86fe6f0c94fe46199b798333aae4/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:13:2-15:34
+	android:targetSdkVersion
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:15:3-32
+		INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml
+		MERGED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		MERGED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		MERGED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		MERGED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		MERGED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:14:3-29
+		INJECTED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:17:2-76
+MERGED from [net.gotev:uploadservice:3.4.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/uploadservice-3.4.2.aar/fb00b0cd2a1965f315f66f56a88b6e9a/AndroidManifest.xml:12:5-80
+MERGED from [net.gotev:uploadservice:3.4.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/uploadservice-3.4.2.aar/fb00b0cd2a1965f315f66f56a88b6e9a/AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:17:19-74
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:18:2-77
+MERGED from [net.gotev:uploadservice:3.4.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/uploadservice-3.4.2.aar/fb00b0cd2a1965f315f66f56a88b6e9a/AndroidManifest.xml:13:5-81
+MERGED from [net.gotev:uploadservice:3.4.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/uploadservice-3.4.2.aar/fb00b0cd2a1965f315f66f56a88b6e9a/AndroidManifest.xml:13:5-81
+MERGED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:11:5-81
+MERGED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:18:19-75
+uses-permission#android.permission.INTERNET
+ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:19:2-63
+MERGED from [net.gotev:uploadservice:3.4.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/uploadservice-3.4.2.aar/fb00b0cd2a1965f315f66f56a88b6e9a/AndroidManifest.xml:11:5-67
+MERGED from [net.gotev:uploadservice:3.4.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/uploadservice-3.4.2.aar/fb00b0cd2a1965f315f66f56a88b6e9a/AndroidManifest.xml:11:5-67
+MERGED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:10:5-67
+MERGED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:19:19-61
+application
+ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:21:2-42:16
+MERGED from [net.gotev:uploadservice:3.4.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/uploadservice-3.4.2.aar/fb00b0cd2a1965f315f66f56a88b6e9a/AndroidManifest.xml:16:5-22:19
+MERGED from [net.gotev:uploadservice:3.4.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/uploadservice-3.4.2.aar/fb00b0cd2a1965f315f66f56a88b6e9a/AndroidManifest.xml:16:5-22:19
+MERGED from [com.android.support:design:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/70fb4bf591c2903f4ce375ea00e7af1a/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/70fb4bf591c2903f4ce375ea00e7af1a/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/3e1652277f34f221892ae7fd9648adef/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-location-11.4.0.aar/3e1652277f34f221892ae7fd9648adef/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/c220d9b6a0a15d2d14f9a40c7479fdb8/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/c220d9b6a0a15d2d14f9a40c7479fdb8/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/8c405dbb940a9b1d0039d34990637699/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/8c405dbb940a9b1d0039d34990637699/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/6522b1ebed012f707ce5db2e9a145fea/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/6522b1ebed012f707ce5db2e9a145fea/AndroidManifest.xml:19:5-21:19
+MERGED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:14:5-23:19
+MERGED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:14:5-23:19
+MERGED from [:nativescript_camera:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/9d031a180b0a4607f630bb9791eafabe/AndroidManifest.xml:11:5-21:19
+MERGED from [:nativescript_camera:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/9d031a180b0a4607f630bb9791eafabe/AndroidManifest.xml:11:5-21:19
+MERGED from [:nativescript_social_share:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/1194298cbf83a629c5f7a61d02c4e58c/AndroidManifest.xml:9:5-19:19
+MERGED from [:nativescript_social_share:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/1194298cbf83a629c5f7a61d02c4e58c/AndroidManifest.xml:9:5-19:19
+MERGED from [:widgets-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/5b8361296e536b1d6033e9b3c51f18cf/AndroidManifest.xml:11:5-12:19
+MERGED from [:widgets-release:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/widgets-release.aar/5b8361296e536b1d6033e9b3c51f18cf/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/04a6f615de28440609dfe5e2427be032/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/04a6f615de28440609dfe5e2427be032/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/264af6a88bf9c10bc9cf301908f5b910/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/264af6a88bf9c10bc9cf301908f5b910/AndroidManifest.xml:22:5-23:19
+MERGED from [com.facebook.soloader:soloader:0.5.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/soloader-0.5.0.aar/8f1a86fe6f0c94fe46199b798333aae4/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/soloader-0.5.0.aar/8f1a86fe6f0c94fe46199b798333aae4/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/04a6f615de28440609dfe5e2427be032/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:25:3-35
+	android:icon
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:24:3-32
+	android:allowBackup
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:23:3-29
+	android:theme
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:26:3-34
+	android:name
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:22:3-49
+activity#com.tns.NativeScriptActivity
+ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:28:3-40:14
+	android:label
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:30:4-49
+	android:configChanges
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:31:4-65
+	android:theme
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:32:4-44
+	android:name
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:29:4-47
+meta-data#SET_THEME_ON_LAUNCH
+ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:34:4-87
+	android:resource
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:34:50-84
+	android:name
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:34:15-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:36:4-39:20
+action#android.intent.action.MAIN
+ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:37:5-57
+	android:name
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:37:13-54
+category#android.intent.category.LAUNCHER
+ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:38:5-65
+	android:name
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:38:15-62
+activity#com.tns.ErrorReportActivity
+ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:41:3-57
+	android:name
+		ADDED from /Users/tyler/Desktop/MCU-Angular/platforms/android/app/src/main/AndroidManifest.xml:41:13-55
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [net.gotev:uploadservice:3.4.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/uploadservice-3.4.2.aar/fb00b0cd2a1965f315f66f56a88b6e9a/AndroidManifest.xml:14:5-68
+MERGED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:12:5-68
+MERGED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:12:5-68
+	android:name
+		ADDED from [net.gotev:uploadservice:3.4.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/uploadservice-3.4.2.aar/fb00b0cd2a1965f315f66f56a88b6e9a/AndroidManifest.xml:14:22-65
+service#net.gotev.uploadservice.UploadService
+ADDED from [net.gotev:uploadservice:3.4.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/uploadservice-3.4.2.aar/fb00b0cd2a1965f315f66f56a88b6e9a/AndroidManifest.xml:17:9-21:19
+	android:enabled
+		ADDED from [net.gotev:uploadservice:3.4.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/uploadservice-3.4.2.aar/fb00b0cd2a1965f315f66f56a88b6e9a/AndroidManifest.xml:19:13-35
+	android:exported
+		ADDED from [net.gotev:uploadservice:3.4.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/uploadservice-3.4.2.aar/fb00b0cd2a1965f315f66f56a88b6e9a/AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from [net.gotev:uploadservice:3.4.2] /Users/tyler/.gradle/caches/transforms-1/files-1.1/uploadservice-3.4.2.aar/fb00b0cd2a1965f315f66f56a88b6e9a/AndroidManifest.xml:18:13-65
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/c220d9b6a0a15d2d14f9a40c7479fdb8/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/c220d9b6a0a15d2d14f9a40c7479fdb8/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/c220d9b6a0a15d2d14f9a40c7479fdb8/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/c220d9b6a0a15d2d14f9a40c7479fdb8/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/6522b1ebed012f707ce5db2e9a145fea/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/6522b1ebed012f707ce5db2e9a145fea/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] /Users/tyler/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/6522b1ebed012f707ce5db2e9a145fea/AndroidManifest.xml:20:20-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:kinvey_nativescript_sdk:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/kinvey_nativescript_sdk.aar/f4db28918e712e621492c52fe49d9511/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [:kinvey_nativescript_sdk:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/kinvey_nativescript_sdk.aar/f4db28918e712e621492c52fe49d9511/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:9:22-74
+service#com.alexbbb.uploadservice.UploadService
+ADDED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:15:9-22:19
+	android:enabled
+		ADDED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:17:13-35
+	android:exported
+		ADDED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:16:13-67
+intent-filter#action:name:org.nativescript.imagepicker.uploadservice.action.upload
+ADDED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:19:13-21:29
+action#org.nativescript.imagepicker.uploadservice.action.upload
+ADDED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:20:17-99
+	android:name
+		ADDED from [:nativescript_background_http:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_background_http.aar/49df44e0a54e343d8d76e70213e71cc8/AndroidManifest.xml:20:25-96
+uses-permission#android.permission.CAMERA
+ADDED from [:nativescript_camera:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/9d031a180b0a4607f630bb9791eafabe/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from [:nativescript_camera:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/9d031a180b0a4607f630bb9791eafabe/AndroidManifest.xml:9:22-62
+provider#android.support.v4.content.FileProvider
+ADDED from [:nativescript_camera:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/9d031a180b0a4607f630bb9791eafabe/AndroidManifest.xml:12:9-20:20
+MERGED from [:nativescript_social_share:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/1194298cbf83a629c5f7a61d02c4e58c/AndroidManifest.xml:10:9-18:20
+MERGED from [:nativescript_social_share:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/1194298cbf83a629c5f7a61d02c4e58c/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:nativescript_camera:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/9d031a180b0a4607f630bb9791eafabe/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:nativescript_camera:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/9d031a180b0a4607f630bb9791eafabe/AndroidManifest.xml:14:13-60
+	android:exported
+		ADDED from [:nativescript_camera:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/9d031a180b0a4607f630bb9791eafabe/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:nativescript_camera:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/9d031a180b0a4607f630bb9791eafabe/AndroidManifest.xml:13:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:nativescript_camera:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/9d031a180b0a4607f630bb9791eafabe/AndroidManifest.xml:17:13-19:58
+MERGED from [:nativescript_social_share:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/1194298cbf83a629c5f7a61d02c4e58c/AndroidManifest.xml:15:13-17:58
+MERGED from [:nativescript_social_share:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_social_share.aar/1194298cbf83a629c5f7a61d02c4e58c/AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:nativescript_camera:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/9d031a180b0a4607f630bb9791eafabe/AndroidManifest.xml:19:17-55
+	android:name
+		ADDED from [:nativescript_camera:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_camera.aar/9d031a180b0a4607f630bb9791eafabe/AndroidManifest.xml:18:17-67
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from [:nativescript_geolocation:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_geolocation.aar/ace126dc4f7e1138e80bb48fbe8bb70d/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [:nativescript_geolocation:] /Users/tyler/.gradle/caches/transforms-1/files-1.1/nativescript_geolocation.aar/ace126dc4f7e1138e80bb48fbe8bb70d/AndroidManifest.xml:9:22-76
