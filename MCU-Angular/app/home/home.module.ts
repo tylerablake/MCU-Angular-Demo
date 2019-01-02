@@ -10,7 +10,7 @@ import { NativeScriptUIGaugeModule } from "nativescript-ui-gauge/angular";
 import { NativeScriptFormsModule } from "nativescript-angular/forms";
 import { HomeRoutingModule } from "./home-routing.module";
 import { HomeComponent } from "./home.component";
-import { PagerModule } from "nativescript-pager/angular";
+import { PagerModule } from "../nativescript-pager/angular";
 
 @NgModule({
     imports: [

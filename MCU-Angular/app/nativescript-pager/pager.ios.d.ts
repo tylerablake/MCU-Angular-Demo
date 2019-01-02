@@ -1,0 +1,54 @@
+import { View } from 'tns-core-modules/ui/core/view';
+import { PagerBase } from './pager.common';
+export { Transformer } from './pager.common';
+export declare class Pager extends PagerBase {
+    private _disableSwipe;
+    private _disableAnimation;
+    _layout: any;
+    private _initialLoad;
+    _preparingCell: boolean;
+    _ios: any;
+    _delegate: any;
+    private _dataSource;
+    _measuredMap: Map<number, CGSize>;
+    _map: Map<PagerCell, View>;
+    borderRadius: number;
+    borderWidth: number;
+    borderColor: string;
+    backgroundColor: any;
+    private _isDataDirty;
+    private _previousIndex;
+    constructor();
+    createNativeView(): any;
+    initNativeView(): void;
+    readonly ios: any;
+    readonly _childrenCount: number;
+    itemTemplateUpdated(oldData: any, newData: any): void;
+    private _setNativeClipToBounds;
+    eachChildView(callback: (child: View) => boolean): void;
+    updateNativeIndex(oldIndex: number, newIndex: number): void;
+    updateNativeItems(oldItems: View[], newItems: View[]): void;
+    private _scrollToIndexAnimated;
+    scrollToIndexAnimated(index: number, animate: boolean): void;
+    private _refresh;
+    refresh(): void;
+    onLoaded(): void;
+    onUnloaded(): void;
+    disableAnimation: boolean;
+    _removeContainer(cell: PagerCell, indexPath?: NSIndexPath): void;
+    disposeNativeView(): void;
+    measure(widthMeasureSpec: number, heightMeasureSpec: number): void;
+    onMeasure(widthMeasureSpec: number, heightMeasureSpec: number): void;
+    onLayout(left: number, top: number, right: number, bottom: number): void;
+    requestLayout(): void;
+    private _setPadding;
+    _prepareCell(cell: PagerCell, indexPath: NSIndexPath): void;
+    private _layoutCell;
+    _addChildFromBuilder(name: string, value: any): void;
+}
+export declare class PagerCell extends UICollectionViewCell {
+    owner: WeakRef<View>;
+    readonly view: View;
+    static initWithEmptyBackground(): PagerCell;
+    willMoveToSuperview(newSuperview: UIView): void;
+}
