@@ -1,0 +1,83 @@
+<ActionBar title="Home" class="action-bar" actionBarHidden="true">
+</ActionBar>
+
+<GridLayout id="page" rows="50, *, 50">
+    <StackLayout row="0" orientation="horizontal" horizontalAlignment="center">
+        <Image height="30" src="~/images/marvel-logo.png" stretch="aspectFit"
+            horizontalAlignment="center" class="logo"></Image>
+    </StackLayout>
+
+    <!-- MOVIES TIMELINE -->
+    <GridLayout row="1" *ngIf="tabIndex === 0" columns="*" rows="600,auto">
+        <StackLayout col="0" row="0">
+            <Pager row="1" col="0" height="320" width="100%"
+                [items]="movies" (selectedIndexChange)="onMovieSwipe($event)"
+                [selectedIndex]="selectedIndex">
+                <ng-template let-item="item" let-i="index">
+                    <GridLayout columns="*" rows="320">
+                        <Image col="0" row="0" height="100%" [src]="item.Poster"
+                            horizontalAlignment="center" [class]="item.Watched ? 'is-watched thumb movies-timeline-item': 'thumb movies-timeline-item'"
+                            stretch="aspectFit"></Image>
+
+                        <Image col="0" row="0" [visibility]="item.Watched ? 'visible' : 'collapsed'"
+                            left="70" top="130" height="70" stretch="aspectFit"
+                            src="~/images/tick.png"></Image>
+                    </GridLayout>
+                </ng-template>
+            </Pager>
+
+            <StackLayout row="2" col="0" [class]="selectedMovie.Watched ? 'movies-timeline-movie-is-watched': 'movies-timeline-movie'">
+                <Label class="movies-timeline-title" [text]="selectedMovie.Title"
+                    textWrap="true"></Label>
+                <FlexboxLayout justifyContent="space-between">
+                    <Label class="movies-timeline-total">
+                        <FormattedString>
+                            <Span text="Movie: "></Span>
+                            <Span [text]="+selectedIndex + 1" fontWeight="bold"></Span>
+                            <Span [text]="' of ' + movies.length"></Span>
+                        </FormattedString>
+                    </Label>
+                    <Button class="movies-timeline-button" (tap)="onWatchedButtonTap()"
+                        [text]="selectedMovie.Watched ? 'Add To Watch List' : 'Watched It'"></Button>
+                </FlexboxLayout>
+                <Label class="movies-timeline-desc" [text]="movies[selectedIndex].Plot"
+                    textWrap="true"></Label>
+            </StackLayout>
+        </StackLayout>
+
+    </GridLayout>
+
+    <!-- MOVIES WATCHLIST -->
+    <ScrollView row="1" *ngIf="tabIndex === 1">
+        <StackLayout class="watch-list">
+            <Label class="watch-list-title" text="To watch"></Label>
+            <Label class="watch-list-subtitle" [text]="watchListSubtitle()"></Label>
+            <FlexboxLayout *ngIf="toWatchList.length" flexWrap="wrap">
+                <StackLayout *ngFor="let movie of toWatchList; let index = index"
+                    width="30%" [key]="index" class="watch-list-movie">
+                    <Image (tap)="onWatchListMovieTap(movie.Title)" [src]="movie.Poster"
+                        height="150" stretch="aspectFill"></Image>
+                </StackLayout>
+            </FlexboxLayout>
+            <StackLayout *ngIf="toWatchList.length === 0">
+                <AbsoluteLayout width="290" verticalAlignment="center"
+                    horizontalAlignment="center">
+                    <Image width="290" src="~/images/bye.png" stretch="aspectFit"></Image>
+                    <Label top="320" left="50">
+                        <FormattedString>
+                            <Span text="Marvel will return" fontWeight="bold"
+                                style="font-size: 24px"></Span>
+                        </FormattedString>
+                    </Label>
+                </AbsoluteLayout>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+
+    <GridLayout row="2" height="60" columns="*,*" rows="*">
+        <Button col="0" row="0" width="50%" text="Timeline" (tap)="onTabChange(0)"
+            [class]="tabIndex === 0 ? 'tab-is-active' : 'tab'"></Button>
+        <Button col="1" row="0" width="50%" text="Watch List" (tap)="onTabChange(1)"
+            [class]="tabIndex === 1 ? 'tab-is-active' : 'tab'"></Button>
+    </GridLayout>
+</GridLayout>
